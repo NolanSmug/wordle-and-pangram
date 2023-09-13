@@ -19,7 +19,7 @@ This game was heavily inspired by the New York Times Spelling Bee game. The prog
 - One of the 7 letters (the letter printed first), must be used in every word.
 - You can repeat letters in the same word.
 - Words must be 4 or more letters.
-- 1 point gained for every letter (ex: 5 lettered word = 5 points, etc.)
+- 1 point gained for every letter (ex: 5 lettered word = 5 points)
 
 To accomplish this, the program runs a function that iterates through a dictionary (`dictionary.txt`), and checks which words only contain the randomly generated letters (ignoring < 3 lettered words). The game ends when the user finds every word possible (a difficult task), or when the user inputs 'ext', to which the program prints all the possible words that the user missed.
 
